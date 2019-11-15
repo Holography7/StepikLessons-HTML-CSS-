@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+}
+
+footer {
+  background-color: #333;
+}
+
+div.header {
+  position: fixed;
+  background-color: #007765;
+  height: 85px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+}
+
+div.content {
+  width: 1219px;
+  padding: 0 55px;
+  margin: 75px auto 92px;
+}
+
+div.fullScreenImgBlock1 {
+  margin: 0px;
+  width: 100%;
+  min-width: 1219px;
+  padding: 160px 0;
+  background: url(images/Jumbotron.png);
+  background-size: cover;
+}
+
+div.fullScreenImgBlock2 {
+  margin: 0px;
+  width: 100%;
+  min-width: 1219px;
+  padding: 160px 0;
+  background: url(images/Hero.png);
+  background-size: cover;
+}
+
+div.textOnBackground1 {
+  width: 1219px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 72px;
+  color: #fff;
+  text-align: center;
+  padding: 0 163px;
+  margin: auto;
+}
+
+div.textOnBackground2 {
+  width: 893px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+div.mainContent {
+  margin: 84px 0px 0px;
+  width: 100%;
+}
+
+div.team {
+  background-color: #eeeeee;
+  padding: 75px 0 92px;
+}
+
+div.clear {
+  clear: both;
+}
+
+div.footPage {
+  width: 1219px;
+  margin: auto;
+}
+
+div.footContent {
+  width: 540px;
+  margin: auto;
+  padding: 50px;
+}
+
+div.footContent > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+div.logoBlock {
+  width: 610px;
+}
+
+div.navigation {
+  width: 1219px;
+  height: 100%;
+  margin: auto;
+}
+
+h1 {
+  color: #007765;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 64px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+
+td.teamMembers {
+  text-align: center;
+}
+
+img.logoimg {
+  height: 45px;
+  float: left;
+}
+
+img.fullScreenImg {
+  margin: 0px;
+  width: inherit;
+}
+
+img.imgInText {
+  float: left;
+  width: 115px;
+  height: 115px;
+  margin-right: 82px;
+}
+
+img.teamImage {
+  width: 168px;
+  margin: 0 auto;
+}
+
+a.headA {
+  color: #fff;
+  text-decoration: none;
+}
+
+table.tblHead {
+  width: 1219px;
+  height: 100%;
+  margin: auto;
+}
+
+table.teamImages {
+  width: 1219px;
+  height: 100%;
+  margin: auto;
+}
+
+td.rightCellHead {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  text-align: right;
+}
+
+figcaption.name {
+  color: #007765;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+figcaption.position {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+}

@@ -1,0 +1,77 @@
+p {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  width: 70%;
+}
+
+h2 {
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  width: 70%;
+}
+
+h3 {
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  width: 70%;
+}
+
+ol.first-ol {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+td {
+  padding: 3px;
+  border: 1px solid black;
+}
+
+td.caption {
+  font-weight: bold;
+  text-align: center;
+}
+
+caption {
+  padding: 3px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+figure {
+  float: right;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+div.text-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: justify;
+}
