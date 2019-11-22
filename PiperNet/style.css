@@ -91,14 +91,36 @@ div.footContent > p {
   text-align: center;
 }
 
-div.logoBlock {
-  width: 610px;
+div.navLogo{
+  margin: auto 0;
 }
 
 div.navigation {
   width: 1219px;
   height: 100%;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.navTextBlock {
+  margin: auto 0;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 24px;
+}
+
+div.teamMembers {
+  width: 1110px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+div.imgInFigure {
+  width: 168px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -113,13 +135,8 @@ p {
   font-size: 32px;
 }
 
-td.teamMembers {
-  text-align: center;
-}
-
 img.logoimg {
   height: 45px;
-  float: left;
 }
 
 img.fullScreenImg {
@@ -144,30 +161,12 @@ a.headA {
   text-decoration: none;
 }
 
-table.tblHead {
-  width: 1219px;
-  height: 100%;
-  margin: auto;
-}
-
-table.teamImages {
-  width: 1219px;
-  height: 100%;
-  margin: auto;
-}
-
-td.rightCellHead {
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-  text-align: right;
-}
-
 figcaption.name {
   color: #007765;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 24px;
+  text-align: center;
 }
 
 figcaption.position {
@@ -175,4 +174,5 @@ figcaption.position {
   font-weight: bold;
   font-size: 18px;
   font-style: italic;
+  text-align: center;
 }
