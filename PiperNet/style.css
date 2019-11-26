@@ -161,6 +161,10 @@ a.headA {
   text-decoration: none;
 }
 
+a.headA:hover {
+  text-decoration: underline;
+}
+
 figcaption.name {
   color: #007765;
   font-family: 'Roboto', sans-serif;
