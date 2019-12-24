@@ -80,6 +80,18 @@ div.footer {
   margin: 0 0 24px 0;
 }
 
+div.arrow {
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+  width: 80px;
+  height: 80px;
+  background-color: #59BD5A;
+  background-image: url("images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 input.searchButton {
   width: 100%;
   font-family: 'Roboto', sans-serif;
@@ -187,6 +199,12 @@ a.footer {
   color: #fff;
 }
 
+a.arrow {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
 select.languageSelect {
   background-color: transparent;
   background-image: url("images/arrow.svg");
@@ -224,10 +242,24 @@ span.footer {
   main {
     padding: 72px 0 8px;
   }
+
   footer {
     padding: 40px 8px 16px 8px;
   }
+
   a.downloadApp {
     margin: 0 10px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  a.arrow {
+    width: 64px;
+    height: 64px;
+  }
+
+  div.arrow {
+    width: 64px;
+    height: 64px;
   }
 }
